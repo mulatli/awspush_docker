@@ -2,7 +2,7 @@
     "family": "hello-world",
     "containerDefinitions": [
         {
-            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
+            "image": "403771891598.dkr.ecr.eu-central-1.amazonaws.com/winterdienstdb-dev-ecr:awspush-1.0.0",
             "name": "hello-world",
             "cpu": 10,
             "memory": 256,
